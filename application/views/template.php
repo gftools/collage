@@ -14,9 +14,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>Hello My Application</h1>
 </div>
 
-<div id="app" class="container">
-	<h2>{{ message }}</h2>
-</div>
 
 
 
@@ -29,16 +26,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 <?php include('scripts.html'); ?>
-
-<script>
-var app = new Vue({
-	el: '#app',
-	data: {
-		message: 'Hello Vue!'
-	}
-});
-</script>
-
-
 </body>
 </html>
